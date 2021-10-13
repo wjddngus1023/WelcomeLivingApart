@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    tools:context=".ui.next_month.next_monthfrag"
+    android:orientation="vertical"
+    android:background="#DAD4C0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nexttotal"
+        android:layout_gravity="center"
+        android:text="다음달 예상 관리비 : "
+        android:textColor="#219E23"
+        android:textSize="27dp"
+        android:fontFamily="@font/customfont1"
+        android:gravity="top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalmessage"
+        android:text="다음달엔 이번달보다 0원 정도 더 나올거에요"
+        android:textColor="#1C90B3"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/customfont1"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextgas"
+        android:text="예상 가스비 : "
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="#B65454"
+        android:fontFamily="@font/customfont1"
+        android:padding="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gasmessage"
+        android:text="다음달엔 이번달보다 0원 정도 더 나올거에요"
+        android:textColor="#1C90B3"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/customfont1"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextelectric"
+        android:text="예상 전기세 : "
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="#B65454"
+        android:fontFamily="@font/customfont1"
+        android:padding="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/electricmessage"
+        android:text="다음달엔 이번달보다 0원 정도 더 나올거에요"
+        android:textColor="#1C90B3"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/customfont1"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextmanage"
+        android:text="예상 관리비 : "
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="#B65454"
+        android:fontFamily="@font/customfont1"
+        android:padding="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/managemessage"
+        android:text="다음달엔 이번달보다 0원 정도 더 나올거에요"
+        android:textColor="#1C90B3"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/customfont1"
+        android:layout_marginBottom="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextwater"
+        android:text="예상 수도세 : "
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="#B65454"
+        android:fontFamily="@font/customfont1"
+        android:padding="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/watermessage"
+        android:text="다음달엔 이번달보다 0원 정도 더 나올거에요"
+        android:textColor="#1C90B3"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/customfont1"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAD4C0">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/daymanage"
+        android:text="관리비 납부일은 : "
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtdaymanage"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/daygas"
+        android:text="가스비 납부일은 : "
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtdaygas"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dayelectric"
+        android:text="전기세 납부일은 : "
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtdayelectric"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/daywater"
+        android:text="수도세 납부일은 : "
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtdaywater"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

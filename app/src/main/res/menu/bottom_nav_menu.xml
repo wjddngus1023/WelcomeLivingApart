@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_thismonth"
+        android:icon="@drawable/ic_calendar"
+        android:title="이번달엔" />
+
+    <item
+        android:id="@+id/navigation_prevmonth"
+        android:icon="@drawable/ic_chart"
+        android:title="저번달엔" />
+
+    <item
+        android:id="@+id/navigation_nextmonth"
+        android:icon="@drawable/ic_next"
+        android:title="다음달엔" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="설정" />
+
+</menu>

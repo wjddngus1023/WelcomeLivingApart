@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    tools:context=".ui.prev_month.prev_monthfrag"
+    android:orientation="vertical"
+    android:background="#DAD4C0">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message1"
+        android:text="저번달 대비 n원 절약했어요"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:textColor="#B65454"
+        android:fontFamily="@font/customfont1"
+        android:padding="3dp"
+        android:layout_marginTop="50dp"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/img"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message2"
+        android:text="이번달엔 커피 n잔을 더마실 수 있어요!"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#9A1F6D"
+        android:fontFamily="@font/customfont1"
+        android:padding="10dp" />
+
+
+</LinearLayout>

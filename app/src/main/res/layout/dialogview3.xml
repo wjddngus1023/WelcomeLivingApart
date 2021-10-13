@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAD4C0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmanageprev"
+        android:text="저번 달의 관리비를 입력하세요"
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtmanageprev"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvgasprev"
+        android:text="저번 달의 가스비를 입력하세요"
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtgasprev"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvelectricprev"
+        android:text="저번 달의 전기세를 입력하세요"
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtelectricprev"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvwaterprev"
+        android:text="저번 달의 수도세를 입력하세요"
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtwaterprev"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/customfont1"
+        />
+
+
+</LinearLayout>

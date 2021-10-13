@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    tools:context=".ui.settings.settingsfrag"
+    android:orientation="vertical"
+    android:background="#DAD4C0">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pushalert"
+        android:text="푸쉬 알람"
+        android:layout_gravity="center"
+        android:textColor="#C12865"
+        android:textSize="27dp"
+        android:fontFamily="@font/customfont1"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/manageset"
+            android:text="관리비 입력 : "
+            android:layout_gravity="center"
+            android:textColor="#C12865"
+            android:textSize="27dp"
+            android:fontFamily="@font/customfont1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여기에 관리비입력"
+            android:textColor="#937D7D"
+            android:id="@+id/managesetedit"
+            android:fontFamily="@font/customfont1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/managebutton"
+            android:text="설정"
+            android:fontFamily="@font/customfont1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가스비 납부서 연동"
+            android:layout_gravity="center"
+            android:textColor="#C12865"
+            android:textSize="27dp"
+            android:id="@+id/gasset"
+            android:fontFamily="@font/customfont1"
+            android:padding="3dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gassetbutton"
+            android:text="연동"
+            android:fontFamily="@font/customfont1" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전기세 납부서 연동"
+                android:layout_gravity="center"
+                android:textColor="#C12865"
+                android:textSize="27dp"
+                android:id="@+id/electricset"
+                android:fontFamily="@font/customfont1"
+                android:padding="3dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/electricsetbutton"
+                android:text="연동"
+                android:fontFamily="@font/customfont1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수도세 납부서 연동"
+                android:layout_gravity="center"
+                android:textColor="#C12865"
+                android:textSize="27dp"
+                android:id="@+id/waterset"
+                android:fontFamily="@font/customfont1"
+                android:padding="3dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/watersetbutton"
+                android:text="연동"
+                android:fontFamily="@font/customfont1" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+

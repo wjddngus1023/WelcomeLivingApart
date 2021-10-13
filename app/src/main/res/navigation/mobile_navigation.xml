@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_thismonth">
+
+    <fragment
+        android:id="@+id/navigation_thismonth"
+        android:name="com.example.final_project.ui.this_month.this_monthfrag"
+        android:label="이번달엔"
+        tools:layout="@layout/this_month" />
+
+    <fragment
+        android:id="@+id/navigation_prevmonth"
+        android:name="com.example.final_project.ui.prev_month.prev_monthfrag"
+        android:label="저번달엔"
+        tools:layout="@layout/prev_month" />
+
+    <fragment
+        android:id="@+id/navigation_nextmonth"
+        android:name="com.example.final_project.ui.next_month.next_monthfrag"
+        android:label="다음달엔"
+        tools:layout="@layout/next_month" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.final_project.ui.settings.settingsfrag"
+        android:label="설정"
+        tools:layout="@layout/settings"/>
+</navigation>
